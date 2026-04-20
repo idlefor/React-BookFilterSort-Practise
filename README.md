@@ -4,7 +4,9 @@
 
 ---
 
-## 📋 Question Description
+<img width="953" height="481" alt="image" src="https://github.com/user-attachments/assets/149fb64e-e7ef-4da0-97de-456d473cb876" />
+
+## 📋 Description
 
 Complete the component shown which implements a filter that **searches and displays books** on the basis of their **genre**, and **sorts** them according to their **names**.
 
