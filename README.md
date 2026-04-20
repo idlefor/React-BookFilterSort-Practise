@@ -4,8 +4,6 @@
 
 ---
 
-<img width="953" height="481" alt="image" src="https://github.com/user-attachments/assets/149fb64e-e7ef-4da0-97de-456d473cb876" />
-
 ## 📋 Description
 
 Complete the component shown which implements a filter that **searches and displays books** on the basis of their **genre**, and **sorts** them according to their **names**.
@@ -106,8 +104,10 @@ searchText length % 2 === 0  →  Apply filter (e.g. length 2, 4, 6...)
 searchText length % 2 !== 0  →  Show results from last even-length prefix
 searchText length === 0      →  Show all books (no filter)
 ```
+<img width="946" height="300" alt="image" src="https://github.com/user-attachments/assets/5e29e2f7-29e4-4402-9e75-52e96b1a6aff" />
 
 **Search** is applied to **unsorted** data first, then **sort** is applied to the filtered result.
+<img width="944" height="404" alt="image" src="https://github.com/user-attachments/assets/1b7b2e10-3e50-4c75-93ee-634bcab32529" />
 
 ```js
 // Search logic (case-sensitive, on genre field)
@@ -119,6 +119,7 @@ filtered = booksList.filter(book => book.genre.includes(effectiveSearch));
 if (sortOrder === 'asc') filtered.sort((a, b) => a.name.localeCompare(b.name));
 if (sortOrder === 'desc') filtered.sort((a, b) => b.name.localeCompare(a.name));
 ```
+<img width="950" height="260" alt="image" src="https://github.com/user-attachments/assets/697ac4ba-02b8-4b40-b8dc-76d0d1c82265" />
 
 ### `src/components/Books/index.js`
 
